@@ -51,7 +51,7 @@ Screenshot http://prntscr.com/bput9l.
 
 * question:"Where were they injured?" - question;
 * type:"image" - type of question;
-* answers: [{ - answersж<br>
+* answers: [{ - answers;<br>
 ------------"src":"images/img1.png", - image;<br>
 ------------"text":"Head" - the text under the picture;<br>
 ------------},<br>
