@@ -111,9 +111,7 @@ router.post('/api/question', function (req, res) {
 
         if(!questions.length) {
             req.body.answers = JSON.stringify(req.body.answers);
-            models.Questions.bulkCreate([req.body]);
-
-            /*res.json(req.body.answers);*/
+            models.Questions.create(req.body);
             res.json({success: "success", msg: "Question was created!"});
         } else {
             res.json({success: "error", msg: "Can not be created. Question: " + "\\" + req.body.question + "\\" + " - was already exists!"});
