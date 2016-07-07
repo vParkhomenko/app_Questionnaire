@@ -51,14 +51,14 @@ Screenshot http://prntscr.com/bput9l.
 
 * question:"Where were they injured?" - question;
 * type:"image" - type of question;
-* answers:  >>>[{<br>
-            >>> "src":"images/img1.png", - image;<br>
-            >>> "text":"Head" - the text under the picture;<br>
-            >>> }, - answers<br>
-            >>> {<br>
-            >>> "src":"images/img2.png",<br>
-            >>> "text":"Torso - Front"<br>
-            >>>}],<br>
+* answers: [{ - answers<br>
+-----------"src":"images/img1.png", - image;<br>
+-----------"text":"Head" - the text under the picture;<br>
+-----------},<br>
+-----------{<br>
+-----------"src":"images/img2.png",<br>
+-----------"text":"Torso - Front"<br>
+-----------}],<br>
 * alertMessage:"Ooops! You must make a selection" - alert message;
 
 Screenshot http://prntscr.com/bpux2h.
