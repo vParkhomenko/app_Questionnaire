@@ -45,7 +45,19 @@ As it looks, you can see a screenshot http://prntscr.com/bpugzo.
 * inputType: "text" - input field type(such as text, email);
 * alertMessage: "Please fill this in" - alert message;
 
+**The sample code to create a question:**
+
+ {<br/>
+    "question": "What is your full name?",<br/>
+    "src": "images/user.png",<br/>
+    "type": "text",<br/>
+    "inputType": "text",<br/>
+    "alertMessage": "Please fill this in"<br/>
+ }
+
 Screenshot http://prntscr.com/bput9l.
+
+---
 
 **"image"** - it offers a choice of several options;
 
@@ -61,7 +73,42 @@ Screenshot http://prntscr.com/bput9l.
 ------------}],<br>
 * alertMessage:"Ooops! You must make a selection" - alert message;
 
+**The sample code to create a question:**
+
+ {<br/>
+    "question":"Where were they injured?",<br/>
+    "type":"image",<br/>
+    "answers":[{<br/>
+                "src":"images/img1.png",<br/>
+                "text":"Head"<br/>
+              },{<br/>
+                "src":"images/img2.png",<br/>
+                "text":"Torso - Front"<br/>
+              },{<br/>
+                "src":"images/img3.png",<br/>
+                "text":"Torso - Back"<br/>
+              },{<br/>
+                "src":"images/img4.png",<br/>
+                "text":" Left Arm"<br/>
+              },{<br/>
+                "src":"images/img5.png",<br/>
+                "text":"Right Arm"<br/>
+              },{<br/>
+                "src":"images/img6.png",<br/>
+                "text":"Left Leg"<br/>
+              },{<br/>
+                "src":"images/img7.png",<br/>
+                "text":"Right Leg"<br/>
+              },{<br/>
+                "src":"images/img8.png",<br/>
+                "text":"Other"<br/>
+              }],<br/>
+ "alertMessage":"Ooops! You must make a selection"<br/>
+ }
+
 Screenshot http://prntscr.com/bpux2h.
+
+---
 
 **"evaluation"** - it offers a number selected from 1 to 8;
 
@@ -69,7 +116,17 @@ Screenshot http://prntscr.com/bpux2h.
 * type:"evaluation" - type of question;
 * alertMessage:"Ooops! You must make a selection" - alert message;
 
+**The sample code to create a question:**
+
+ {<br/>
+    "question": "How badly does this injury affect them?",<br/>
+    "type": "evaluation",<br/>
+    "alertMessage": "Ooops! You must make a selection"<br/>
+ }
+
 Screenshot http://prntscr.com/bpuz6y.
+
+---
 
 **"quantity"** - it prompts you to select the number of (estimated);
 
@@ -77,7 +134,17 @@ Screenshot http://prntscr.com/bpuz6y.
 * type:"quantity" - type of question;
 * alertMessage:"Ooops! You must make a selection" - alert message;
 
+**The sample code to create a question:**
+
+ {<br/>
+    "question": "How people witnessed the incident?",<br/>
+    "type": "quantity",<br/>
+    "alertMessage": "Ooops! You must make a selection"<br/>
+ }
+
 Screenshot http://prntscr.com/bpv15h.
+
+---
 
 **"textarea"** - it proposes to introduce the text(textarea);
 
@@ -85,7 +152,17 @@ Screenshot http://prntscr.com/bpv15h.
 * type:"textarea" - type of question;
 * alertMessage:"Please fill this in" - alert message;
 
+**The sample code to create a question:**
+
+ {<br/>
+    "question": "How many people witnessed the incident?",<br/>
+    "type": "textarea",<br/>
+    "alertMessage": "Please fill this in"<br/>
+ }
+
 Screenshot http://prntscr.com/bpv2ts.
+
+---
 
 **"chooseYesNo"** - it offers the option to choose one of the two;
 
@@ -93,7 +170,17 @@ Screenshot http://prntscr.com/bpv2ts.
 * type:"chooseYesNo" - type of question;
 * alertMessage:"Ooops! You must make a selection" - alert message;
 
+**The sample code to create a question:**
+
+ {<br/>
+    "question": "Have steps been taken to reduce the chances of this happening again?",<br/>
+    "type": "chooseYesNo",<br/>
+    "alertMessage": "Ooops! You must make a selection"<br/>
+ }
+
 Screenshot http://prntscr.com/bpv4ih.
+
+---
 
 If you want to check the user answered correctly to the question of whether or not correct, you need to create a question to add option:<br>
 
