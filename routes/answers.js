@@ -6,8 +6,8 @@ router.post('/api/answers', function (req, res) {
 
     var body = req.body,
         id = [],
-        countCorrectAnswer = 0, // количество CorrectAnswer
-        correctAnswer = 0; // количество правильных CorrectAnswer
+        countCorrectAnswer = 0, 
+        correctAnswer = 0; 
 
     body.forEach(function(entry) {
         id.push(entry.id);
