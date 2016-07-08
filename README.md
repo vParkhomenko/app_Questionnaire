@@ -47,13 +47,15 @@ As it looks, you can see a screenshot http://prntscr.com/bpugzo.
 
 **The sample code to create a question:**
 
- {<br/>
-    "question": "What is your full name?",<br/>
-    "src": "images/user.png",<br/>
-    "type": "text",<br/>
-    "inputType": "text",<br/>
-    "alertMessage": "Please fill this in"<br/>
+```javascript
+ {
+    "question": "What is your full name?",
+    "src": "images/user.png",
+    "type": "text",
+    "inputType": "text",
+    "alertMessage": "Please fill this in"
  }
+```
 
 Screenshot http://prntscr.com/bput9l.
 
@@ -75,37 +77,39 @@ Screenshot http://prntscr.com/bput9l.
 
 **The sample code to create a question:**
 
- {<br/>
-    "question":"Where were they injured?",<br/>
-    "type":"image",<br/>
-    "answers":[{<br/>
-                "src":"images/img1.png",<br/>
-                "text":"Head"<br/>
-              },{<br/>
-                "src":"images/img2.png",<br/>
-                "text":"Torso - Front"<br/>
-              },{<br/>
-                "src":"images/img3.png",<br/>
-                "text":"Torso - Back"<br/>
-              },{<br/>
-                "src":"images/img4.png",<br/>
-                "text":" Left Arm"<br/>
-              },{<br/>
-                "src":"images/img5.png",<br/>
-                "text":"Right Arm"<br/>
-              },{<br/>
-                "src":"images/img6.png",<br/>
-                "text":"Left Leg"<br/>
-              },{<br/>
-                "src":"images/img7.png",<br/>
-                "text":"Right Leg"<br/>
-              },{<br/>
-                "src":"images/img8.png",<br/>
-                "text":"Other"<br/>
-              }],<br/>
- "alertMessage":"Ooops! You must make a selection"<br/>
+```javascript
+{
+    "question":"Where were they injured?",
+    "type":"image",
+    "answers":[{
+                "src":"images/img1.png",
+                "text":"Head"
+              },{
+                "src":"images/img2.png",
+                "text":"Torso - Front"
+              },{
+                "src":"images/img3.png",
+                "text":"Torso - Back"
+              },{
+                "src":"images/img4.png",
+                "text":" Left Arm"
+              },{
+                "src":"images/img5.png",
+                "text":"Right Arm"
+              },{
+                "src":"images/img6.png",
+                "text":"Left Leg"
+              },{
+                "src":"images/img7.png",
+                "text":"Right Leg"
+              },{
+                "src":"images/img8.png",
+                "text":"Other"
+              }],
+ "alertMessage":"Ooops! You must make a selection"
  }
-
+```
+ 
 Screenshot http://prntscr.com/bpux2h.
 
 ---
@@ -118,11 +122,13 @@ Screenshot http://prntscr.com/bpux2h.
 
 **The sample code to create a question:**
 
- {<br/>
-    "question": "How badly does this injury affect them?",<br/>
-    "type": "evaluation",<br/>
-    "alertMessage": "Ooops! You must make a selection"<br/>
+```javascript
+ {
+    "question": "How badly does this injury affect them?",
+    "type": "evaluation",
+    "alertMessage": "Ooops! You must make a selection"
  }
+```
 
 Screenshot http://prntscr.com/bpuz6y.
 
@@ -136,11 +142,13 @@ Screenshot http://prntscr.com/bpuz6y.
 
 **The sample code to create a question:**
 
- {<br/>
-    "question": "How people witnessed the incident?",<br/>
-    "type": "quantity",<br/>
-    "alertMessage": "Ooops! You must make a selection"<br/>
+```javascript
+ {
+    "question": "How people witnessed the incident?",
+    "type": "quantity",
+    "alertMessage": "Ooops! You must make a selection"
  }
+```
 
 Screenshot http://prntscr.com/bpv15h.
 
@@ -154,11 +162,13 @@ Screenshot http://prntscr.com/bpv15h.
 
 **The sample code to create a question:**
 
- {<br/>
-    "question": "How many people witnessed the incident?",<br/>
-    "type": "textarea",<br/>
-    "alertMessage": "Please fill this in"<br/>
+```javascript
+ {
+    "question": "How many people witnessed the incident?",
+    "type": "textarea",
+    "alertMessage": "Please fill this in"
  }
+```
 
 Screenshot http://prntscr.com/bpv2ts.
 
@@ -172,11 +182,13 @@ Screenshot http://prntscr.com/bpv2ts.
 
 **The sample code to create a question:**
 
- {<br/>
-    "question": "Have steps been taken to reduce the chances of this happening again?",<br/>
-    "type": "chooseYesNo",<br/>
-    "alertMessage": "Ooops! You must make a selection"<br/>
+```javascript
+ {
+    "question": "Have steps been taken to reduce the chances of this happening again?",
+    "type": "chooseYesNo",
+    "alertMessage": "Ooops! You must make a selection"
  }
+```
 
 Screenshot http://prntscr.com/bpv4ih.
 

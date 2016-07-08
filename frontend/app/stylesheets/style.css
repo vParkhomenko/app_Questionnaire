@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'Raleway';
-	src: url('../fonts/Raleway.eot');
-	src: url('../fonts/Raleway.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/Raleway.woff2') format('woff2'),
-		 url('../fonts/Raleway.woff') format('woff'),
-		 url('../fonts/Raleway.ttf')	format('truetype'),
-		 url('../fonts/Raleway.svg#svgFontName') format('svg');
+	src: url('../fonts/raleway.eot');
+	src: url('../fonts/raleway.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/raleway.woff2') format('woff2'),
+		 url('../fonts/raleway.woff') format('woff'),
+		 url('../fonts/raleway.ttf')	format('truetype'),
+		 url('../fonts/raleway.svg#svgFontName') format('svg');
 }
 body {
 	font-family: 'Raleway', sans-serif;
