@@ -65,14 +65,13 @@ Screenshot http://prntscr.com/bput9l.
 
 * question:"Where were they injured?" - question;
 * type:"image" - type of question;
-* answers: [{ - answers;<br>
-------------"src":"images/img1.png", - image;<br>
-------------"text":"Head" - the text under the picture;<br>
-------------},<br>
-------------{<br>
-------------"src":"images/img2.png",<br>
-------------"text":"Torso - Front"<br>
-------------}],<br>
+* answers: [{ - answers;
+       * "src":"images/img1.png", - image;
+       * "text":"Head" - the text under the picture;<br>
+         }, {<br>
+       * "src":"images/img2.png",
+       * "text":"Torso - Front"<br>
+         }],
 * alertMessage:"Ooops! You must make a selection" - alert message;
 
 **The sample code to create a question:**
