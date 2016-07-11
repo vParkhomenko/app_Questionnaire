@@ -11,6 +11,11 @@
  >$ cd app_Questionnaire<br>
  >$ npm install
  
+ After installation it is necessary to build the application.<br> 
+ To do this using the command line or terminal need to move to a folder **\app_Questionnaire\frontend>** and run the assembly:<br> 
+ >$ cd frontend<br>
+ >$ gulp
+  
 ## Running applications
  Navigate to the folder **\app_Questionnaire\bin>** which is located in the application: <br>
  >$ cd bin<br>
@@ -39,21 +44,15 @@ As it looks, you can see a screenshot http://prntscr.com/bpugzo.
 ## Types of questions
 **"text"** - it creates an question with a field for entering text(input);
 
-* question: "What is your full name?" - question;
-* src: "images/user.png" - icon above the input field;
-* type: "text" - type of question;
-* inputType: "text" - input field type(such as text, email);
-* alertMessage: "Please fill this in" - alert message;
-
 **The sample code to create a question:**
 
 ```javascript
  {
-    "question": "What is your full name?",
-    "src": "images/user.png",
-    "type": "text",
-    "inputType": "text",
-    "alertMessage": "Please fill this in"
+    "question": "What is your full name?", // question
+    "src": "images/user.png", // icon above the input field
+    "type": "text", // type of question
+    "inputType": "text", // input field type(such as text, email)
+    "alertMessage": "Please fill this in" // alert message
  }
 ```
 
@@ -63,26 +62,15 @@ Screenshot http://prntscr.com/bput9l.
 
 **"image"** - it offers a choice of several options;
 
-* question:"Where were they injured?" - question;
-* type:"image" - type of question;
-* answers: [{ - answers;
-       * "src":"images/img1.png", - image;
-       * "text":"Head" - the text under the picture;<br>
-         }, {<br>
-       * "src":"images/img2.png",
-       * "text":"Torso - Front"<br>
-         }],
-* alertMessage:"Ooops! You must make a selection" - alert message;
-
 **The sample code to create a question:**
 
 ```javascript
 {
-    "question":"Where were they injured?",
-    "type":"image",
-    "answers":[{
-                "src":"images/img1.png",
-                "text":"Head"
+    "question":"Where were they injured?", // question
+    "type":"image", // type of question
+    "answers":[{ // answers
+                "src":"images/img1.png", // image
+                "text":"Head" // the text under the picture
               },{
                 "src":"images/img2.png",
                 "text":"Torso - Front"
@@ -105,7 +93,7 @@ Screenshot http://prntscr.com/bput9l.
                 "src":"images/img8.png",
                 "text":"Other"
               }],
- "alertMessage":"Ooops! You must make a selection"
+ "alertMessage":"Ooops! You must make a selection" // alert message
  }
 ```
  
@@ -115,17 +103,13 @@ Screenshot http://prntscr.com/bpux2h.
 
 **"evaluation"** - it offers a number selected from 1 to 8;
 
-* question:"How badly does this injury affect them?" - question;
-* type:"evaluation" - type of question;
-* alertMessage:"Ooops! You must make a selection" - alert message;
-
 **The sample code to create a question:**
 
 ```javascript
  {
-    "question": "How badly does this injury affect them?",
-    "type": "evaluation",
-    "alertMessage": "Ooops! You must make a selection"
+    "question": "How badly does this injury affect them?", // question
+    "type": "evaluation", // type of question
+    "alertMessage": "Ooops! You must make a selection" // alert message
  }
 ```
 
@@ -135,17 +119,13 @@ Screenshot http://prntscr.com/bpuz6y.
 
 **"quantity"** - it prompts you to select the number of (estimated);
 
-* question:"How many people witnessed the incident?" - question;
-* type:"quantity" - type of question;
-* alertMessage:"Ooops! You must make a selection" - alert message;
-
 **The sample code to create a question:**
 
 ```javascript
  {
-    "question": "How people witnessed the incident?",
-    "type": "quantity",
-    "alertMessage": "Ooops! You must make a selection"
+    "question": "How people witnessed the incident?", // question
+    "type": "quantity", // type of question
+    "alertMessage": "Ooops! You must make a selection" // alert message
  }
 ```
 
@@ -155,17 +135,13 @@ Screenshot http://prntscr.com/bpv15h.
 
 **"textarea"** - it proposes to introduce the text(textarea);
 
-* question:"How many people witnessed the incident?" - question;
-* type:"textarea" - type of question;
-* alertMessage:"Please fill this in" - alert message;
-
 **The sample code to create a question:**
 
 ```javascript
  {
-    "question": "How many people witnessed the incident?",
-    "type": "textarea",
-    "alertMessage": "Please fill this in"
+    "question": "How many people witnessed the incident?", // question
+    "type": "textarea", // type of question
+    "alertMessage": "Please fill this in" // alert message
  }
 ```
 
@@ -175,17 +151,13 @@ Screenshot http://prntscr.com/bpv2ts.
 
 **"chooseYesNo"** - it offers the option to choose one of the two;
 
-* question:"Have steps been taken to reduce the chances of this happening again?" - question;
-* type:"chooseYesNo" - type of question;
-* alertMessage:"Ooops! You must make a selection" - alert message;
-
 **The sample code to create a question:**
 
 ```javascript
  {
-    "question": "Have steps been taken to reduce the chances of this happening again?",
-    "type": "chooseYesNo",
-    "alertMessage": "Ooops! You must make a selection"
+    "question": "Have steps been taken to reduce the chances of this happening again?", // question
+    "type": "chooseYesNo", // type of question
+    "alertMessage": "Ooops! You must make a selection" // alert message
  }
 ```
 
@@ -195,7 +167,11 @@ Screenshot http://prntscr.com/bpv4ih.
 
 If you want to check the user answered correctly to the question of whether or not correct, you need to create a question to add option:<br>
 
-* correctAnswer: "correct answer";
+```javascript
+ {
+    correctAnswer: "correctAnswer"
+ }
+```
 
 
 
